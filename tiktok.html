@@ -34,7 +34,7 @@
 <script>
   // ?key=... cho phép đổi sang Client key Production sau khi app được duyệt
   const q = new URLSearchParams(location.search);
-  const key = q.get('key') || 'DAN_CLIENT_KEY_TIKTOK';
+  const key = q.get('key') || 'sbawwq7rzxy3w701e6';
   const state = Math.random().toString(36).slice(2);
   const u = new URL('https://www.tiktok.com/v2/auth/authorize/');
   u.search = new URLSearchParams({client_key: key, response_type: 'code', scope: 'user.info.basic,video.upload',
